@@ -1,7 +1,7 @@
 # Site
-name: "Andrimo"
-description: "All About Android."
-meta_description: "All About Android, we provide free android help and latest android tricks, tips, latest smartphone, gadgets review and more.."
+name: "Gadgets"
+description: "All About Gadgets."
+meta_description: "All About Gadgets, we provide news about gadgets and gadgets review and more.."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: 
@@ -38,7 +38,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-sitemap
-  - amp-jekyll
     
 # Archives
 jekyll-archives:
