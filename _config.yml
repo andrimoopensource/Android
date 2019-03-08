@@ -1,7 +1,7 @@
 # Site
-name: "Android Tips"
-description: "Powered By Andrimo."
-meta_description: "All About Gadgets, we provide news about gadgets and gadgets review and more.."
+name: "Gadgets News"
+description: "All About Gadgets, Gadgets Tips & Gadgets News."
+meta_description: "All About Gadgets, Gadgets Tips & Gadgets News and more.."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: 
@@ -22,22 +22,14 @@ authors:
     web: https://www.andrimo.com
     twitter: https://twitter.com/andrimoblog
     description: "Author of Andrimo, A Offical Publisher of Andrimo. Publish Article on Weekly Basis"
-  john:
-    name: John
-    display_name: John
-    gravatar: b1cc14991db7a456fcd761680bbc8f81
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
-
+    
 # Plugins
 plugins: 
   - jekyll-paginate
+  - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-  - jekyll-sitemap
     
 # Archives
 jekyll-archives:
@@ -53,4 +45,10 @@ paginate_path: /page:num/
     
 # Other
 markdown: kramdown
-highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
